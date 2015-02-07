@@ -1,6 +1,6 @@
-# C++11 EventBus
+# CocosEventBus
 
-**A lightweight synchronous event framework for C++11**
+**A forked version of EventBus for Cocos2d-x.**
 
 ## Overview
 Like many other event frameworks, this project allows you to reduce inter-class dependencies and decouple your C++11 code by leveraging synchronous events and event handlers.
