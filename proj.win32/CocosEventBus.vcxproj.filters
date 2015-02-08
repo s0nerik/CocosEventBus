@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\demo">
+      <UniqueIdentifier>{c2bec884-7ec7-44fc-a9be-aa61af68f7c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\event">
+      <UniqueIdentifier>{e347259e-9863-477d-8b29-8e7aa99b23dd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\event\EventBus.cpp">
+      <Filter>src\event</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\event\Event.hpp">
+      <Filter>src\event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\event\EventBus.hpp">
+      <Filter>src\event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\event\EventHandler.hpp">
+      <Filter>src\event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\event\HandlerRegistration.hpp">
+      <Filter>src\event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\event\PlayerChatEvent.hpp">
+      <Filter>src\event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\event\PlayerMoveEvent.hpp">
+      <Filter>src\event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\demo\EventBusDemo.hpp">
+      <Filter>src\demo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Player.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
