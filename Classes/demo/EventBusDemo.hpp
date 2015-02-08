@@ -3,9 +3,9 @@
 #include <cstdlib>
 #include "event/EventHandler.hpp"
 #include "event/EventBus.hpp"
-#include "event/PlayerMoveEvent.hpp"
-#include "event/PlayerChatEvent.hpp"
-#include <Player.hpp>
+#include "demo/PlayerMoveEvent.hpp"
+#include "demo/PlayerChatEvent.hpp"
+#include <demo/Player.hpp>
 
 class PlayerChatEvent;
 

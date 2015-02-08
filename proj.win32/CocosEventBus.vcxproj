@@ -141,14 +141,14 @@ xcopy /Y /Q "$(COCOS_FRAMEWORKS)\cocos2d-x-3.4rc1\prebuilt\win32\*.*" "$(OutDir)
   <ItemGroup>
     <ClInclude Include="..\Classes\AppDelegate.h" />
     <ClInclude Include="..\Classes\demo\EventBusDemo.hpp" />
+    <ClInclude Include="..\Classes\demo\Player.hpp" />
+    <ClInclude Include="..\Classes\demo\PlayerChatEvent.hpp" />
+    <ClInclude Include="..\Classes\demo\PlayerMoveEvent.hpp" />
     <ClInclude Include="..\Classes\event\Event.hpp" />
     <ClInclude Include="..\Classes\event\EventBus.hpp" />
     <ClInclude Include="..\Classes\event\EventHandler.hpp" />
     <ClInclude Include="..\Classes\event\HandlerRegistration.hpp" />
-    <ClInclude Include="..\Classes\event\PlayerChatEvent.hpp" />
-    <ClInclude Include="..\Classes\event\PlayerMoveEvent.hpp" />
     <ClInclude Include="..\Classes\HelloWorldScene.h" />
-    <ClInclude Include="..\Classes\Player.hpp" />
     <ClInclude Include="main.h" />
   </ItemGroup>
   <ItemGroup>

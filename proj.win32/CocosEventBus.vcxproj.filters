@@ -53,17 +53,17 @@
     <ClInclude Include="..\Classes\event\HandlerRegistration.hpp">
       <Filter>src\event</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\event\PlayerChatEvent.hpp">
-      <Filter>src\event</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\event\PlayerMoveEvent.hpp">
-      <Filter>src\event</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\demo\EventBusDemo.hpp">
       <Filter>src\demo</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\Player.hpp">
-      <Filter>src</Filter>
+    <ClInclude Include="..\Classes\demo\PlayerChatEvent.hpp">
+      <Filter>src\demo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\demo\PlayerMoveEvent.hpp">
+      <Filter>src\demo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\demo\Player.hpp">
+      <Filter>src\demo</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
